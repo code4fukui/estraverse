@@ -25,8 +25,7 @@
 /*jslint vars:false, bitwise:true*/
 /*jshint indent:4*/
 /*global exports:true*/
-(function clone(exports) {
-    'use strict';
+const exports = {};
 
     var Syntax,
         VisitorOption,
@@ -800,6 +799,5 @@
     exports.Controller = Controller;
     exports.cloneEnvironment = function () { return clone({}); };
 
-    return exports;
-}(exports));
+export default exports;
 /* vim: set sw=4 ts=4 et tw=80 : */
